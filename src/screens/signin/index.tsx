@@ -15,7 +15,7 @@ import { styles} from './styles'
 export function SignIn() {
   const navigation = useNavigation();
   function handleSignIn() {
-    navigation.navigate ("Home");
+    navigation.navigate ('Home');
   }
   
   return (
@@ -40,7 +40,6 @@ export function SignIn() {
 
         <ButtonIcon 
           title="Entrar com Discord"
-          activeOpacity={0.7}
           onPress={handleSignIn}
         />
 
