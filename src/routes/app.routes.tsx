@@ -8,13 +8,13 @@ import { theme } from '../global/styles/theme';
 
 const { Navigator, Screen } = createStackNavigator();
 
-export function AuthRoutes() {
+export function AppRoutes() {
     return(
         <Navigator
             headerMode="none"
             screenOptions={{
                 cardStyle:{
-                    backgroundColor: theme.colors.background 
+                    backgroundColor: theme.colors.background
                 }
                 
             }}

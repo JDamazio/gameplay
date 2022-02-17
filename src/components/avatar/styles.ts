@@ -10,8 +10,8 @@ export const styles = StyleSheet.create({
         marginRight: 22
     },
     avatar: {
-        width: 47,
-        height: 47,
+        width: 50,
+        height: 50,
         borderRadius: 8
     },
 });
